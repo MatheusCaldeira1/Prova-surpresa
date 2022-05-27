@@ -42,7 +42,7 @@ export function diaSemana (dia){
 
 export function sequenciapar(par)
 {
-    for(let cont = 0; cont <= par, cont++ );
+    for(let cont = 0; cont <= par, cont++)
     {
         if(par == 2 % 0)
         {
