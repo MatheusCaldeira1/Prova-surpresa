@@ -1,3 +1,4 @@
+import server from "./endpoints";
 
 export function semaforoPedestre(cor) {
     let msg= ""; 
@@ -42,11 +43,21 @@ export function diaSemana (dia){
 
 export function sequenciapar(par)
 {
-    for(let cont = 0; cont <= par, cont++)
+    for(let cont = 0; cont <= par; cont++)
     {
-        if(par == 2 % 0)
+        if(cont == 2 % 0)
         {
-
+            cont++;
         }
     }
+    return cont;
+} 
+export function fatorial(numero)
+{
+    let i = 0;
+    for(let cont = numero; cont >= 1; cont--)
+    {
+         i = i*cont;
+    }
+    return i;
 }
